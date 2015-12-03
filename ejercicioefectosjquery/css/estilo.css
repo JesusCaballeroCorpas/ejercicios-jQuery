@@ -1,0 +1,51 @@
+#notas{
+    position: absolute;
+    top: 20px;
+    width: 800px;
+    height: 52px;
+}
+#controles{
+    position: absolute;
+    top: 200px;
+}
+#do, #re, #mi, #fa, #sol, #la, #si{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: block;
+}
+#do{
+    background-color: red;
+}
+#re{
+    background-color: orange;
+}
+#mi{
+    background-color: yellow;
+}
+#fa{
+    background-color: green;
+}
+#sol{
+    background-color: blue;
+}
+#la{
+    background-color: crimson;
+}
+#si{
+    background-color: black;
+    color: white;
+}
+.negro{
+    background-color: black !important;
+    color: white !important;
+}
+.blanco{
+    background-color: white !important;
+    color: black !important;
+}
+#texto{
+    position: absolute;
+    top:250px;
+}

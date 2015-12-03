@@ -1,0 +1,42 @@
+<!--
+Fun English Animals
+capa contenedora 600x400
+Start -> Añade de forma aleatoria 20 animales y los coloca en posiciones aleatorias en el contenedor.
+También se elige de forma aleatoria un animal y lo muestra en pantalla su nombre
+P.Ej: Rabbit
+Habrá que hacer click en los animales rabbit del contenedor.
+Si hace es correcto, el animal se desplaza muy rápido hasta fuera del contenedor de manera que desaparece.
+Si se hace click en algun animal que no sea rabbit, se pierde una vida simbolizada por corazones.
+Si se aciertan todos los rabbit aparece un botón de NEXT. Y crea nueva pantalla.
+Si pierde todos los corazones. Pone el mensaje GAME OVER
+New Game
+Next Level.
+Level:____
+Lifes:___
+-->
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Jesús Caballero Corpas">
+    <title>Animales</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+    
+<body>
+    <div id="contenedor">
+        <div id="titulo">FUN ENGLISH ANIMALS</div>
+       <div id="controles">
+            <button id="botonComenzar">New Game</button>
+            <button id="botonSiguiente" disabled>Next</button>
+            <div id="animal">Animal: </div>
+            <div id="nivel">Level: </div>
+            <div id="vidas"><span>Lifes:</span> </div>
+            <p id="mensaje"></p>
+        </div>
+        <div id="tablero"><p>GAME OVER!!!</p></div>
+    </div>
+</body>
+</html>

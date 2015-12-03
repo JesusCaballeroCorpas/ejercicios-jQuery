@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    z-index: -1;
+    color:black;
+}
+#contenedor{
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    width: 95%;
+}
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 0px rgb(200,200,200),
+                 2px 2px 0px rgb(180,180,180),
+                 3px 3px 0px rgb(160,160,160),
+                 4px 4px 0px rgb(140,140,140),
+                 5px 5px 0px rgb(0,0,0),
+                 8px 8px 20px rgb(0,0,0);
+    color: white;
+}
+#controles{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    height: 50px;
+}
+#controles > * {
+    display: inline-block;
+    padding: 0 10px;
+}
+#mensaje{
+    display: block;
+    color: red;
+}
+#tablero{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: cadetblue;
+}
+#tablero > p{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 380px;
+    font-size: 75px;
+    text-shadow: 3px 3px 5px white;
+    display: none;
+    z-index: 2;
+}
+.animales{
+    position: absolute;
+    width: 50px;
+}
+.oso{
+    background-image: url(../images/bear.png);
+    /*background-size: contain;*/
+    height: 59px;
+}
+.pajaro{
+    background-image: url(../images/bird.png);
+    height: 50px;
+}
+.gato{
+    background-image: url(../images/cat.png);
+    height: 57px;
+}
+.perro{
+    background-image: url(../images/dog.png);
+    height: 67px;
+}
+.leon{
+    background-image: url(../images/lion.png);
+    height: 78px;
+}
+.conejo{
+    background-image: url(../images/rabbit.png);
+    height: 70px;
+}
+.corazon{
+    background-image: url(../images/heart.png);
+    width: 50px;
+    height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+}

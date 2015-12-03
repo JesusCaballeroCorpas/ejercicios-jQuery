@@ -1,0 +1,31 @@
+<!--
+3.Tenemos 20 capas seguidas y juntas. Al pulsar comenzar. Le asignamos un número a cada una de ellas y se escribe una cada segundo, a continuación le aumentamos su ancho y alto 50px 1 segundo y cuando termine, se vuelven a su posición inicial.
+
+ 
+
+En un campo de entrada de texto nos pregunta num capa:______  y un botón eliminar y otro botón oculta/mostrar. 
+-->
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>20 Capas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="../jquery-2.1.4.min.js"></script>
+    <script src="../jquery.color-2.1.2.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+    
+<body>
+    <div id="contenedor">
+        <div id="cajas"></div>
+        <div id="controles">
+            <select id="seleccion"></select>
+            <button id="botonComenzar">Comenzar</button>
+            <button id="botonMostrarOcultar">Mostrar/Ocultar</button>
+            <button id="botonQuitar">Quitar</button>
+        </div>
+        <div id="texto"></div>
+    </div>
+</body>
+</html>

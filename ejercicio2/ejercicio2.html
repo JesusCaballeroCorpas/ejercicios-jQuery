@@ -1,0 +1,39 @@
+<!--
+2.Dos capas 40x40:
+Cabeza, cuerpo:
+Al pulsar sobre cabeza (se muestra hacia abajo). Muestra otras 3 capas con diferentes estilos de colores y tamaños.
+Al pulsar sobre cuerpo. Muestra otras 3 capas diferentes estilos de colores y tamaños.
+Al pulsar sobre estas capas, se le aplica a cabeza o cuerpo.
+-->
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Cajas Estilos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="../jquery-2.1.4.min.js"></script>
+    <script src="../jquery.color-2.1.2.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+    
+<body>
+    <div id="contenedor">
+        <div id="caja1" class="cajas">CAJA 1</div>
+        <div id="caja2" class="cajas">CAJA 2</div>
+        <div id="clases">
+            <ul id="conEstilos1">
+                <div>Caja 1</div>
+                <li id="estilo1">Estilo 1</li>
+                <li>Estilo 2</li>
+                <li>Estilo 3</li>
+            </ul>
+            <ul id="conEstilos2">
+                <div>Caja 2</div>
+                <li>Estilo 1</li>
+                <li>Estilo 2</li>
+                <li>Estilo 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
